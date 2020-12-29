@@ -13,7 +13,6 @@
     "test:functional": "jest --projects ./test --runInBand",
     "style:check": "prettier --check src/**/*.ts test/**/*.ts",
     "style:fix": "prettier --write src/**/*.ts test/**/*.ts"
-
   },
   "repository": {
     "type": "git",
@@ -49,8 +48,12 @@
   },
   "dependencies": {
     "@overnightjs/core": "^1.7.5",
+    "@types/config": "^0.0.37",
+    "@types/mongoose": "^5.10.3",
     "body-parser": "^1.19.0",
+    "config": "^3.3.3",
     "express": "^4.17.1",
-    "module-alias": "^2.2.2"
+    "module-alias": "^2.2.2",
+    "mongoose": "^5.11.9"
   }
 }
